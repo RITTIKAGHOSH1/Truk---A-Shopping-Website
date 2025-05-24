@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left bottom, lightblue, lightpink ,
+    lightblue);
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.container{
+    background-color: rgba(255,255,255,.3); 
+    padding: 20px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, .3)  ;
+    border-radius: 15px;
+    width: 85%;
+    text-align: center;
+    color: rgb(6, 80, 6);
+}
+
+.heading{
+    font-size:35px ;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, .3);
+    letter-spacing: 2px;
+}
+
+.joke{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 40px;
+}
+.btn{
+     font-size: 18px;
+     font-weight: 700;
+     border-radius: 5px;
+     padding: 10px;
+     cursor: pointer;
+     background-color: rgba(255,255,255,.3);
+     border-color: rgba(255,255,255,.6) ;
+     width: 300px;
+     text-transform: uppercase;
+     color: darkgreen;
+}
+.btn:hover{
+    background-color: rgba(255,255,255,.5);
+    box-shadow: 0px 4px 4px  rgba(0, 0, 0,.3);
+    transition: all 220ms ease-out;
+}

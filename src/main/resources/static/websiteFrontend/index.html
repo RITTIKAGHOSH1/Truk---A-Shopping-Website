@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoppingAmazon</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-logo ">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="add-deliver">Deliver to</p>
+                <div class="add_icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-india">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="nav-select" id="">
+                    <option value="">All </option>
+                    <option value="">Alexa </option>
+                    <option value="">Amazon Devices </option>
+                    <option value="">Care</option>
+                    <option value="">Furniture</option>
+                    <option value="">Food</option>
+                    <option value="">Gaming </option>
+                    <option value="">Pet Care</option>
+                    <option value="">Skin care </option>
+                </select>
+                <input type="text" class="nav-input" id="" placeholder="Search Amazon">
+                <div class="search-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+
+            <div class="nav-signin">
+                <i class="fa-solid fa-user"></i>
+                Hello
+<!--<span id="loginText">Please Login</span>
+                <p class="nav-second">Account center kor</p> -->
+            </div>
+            
+           <div class="border">
+     <!-- <img id="userIcon" src="default-user.png" alt="User Icon" width="30" />-->
+     <a href="/Authentication/index.html" target="_blank" class="text">Login<!--<span id="loginText"></span>--></a>
+    </div>
+    
+            <div class="nav-games border " >
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                Games
+                <ul>
+                    <li><a href="page.html" target="_blank">Tic Tac Toe</a></li>
+                    <!--<li><a href="ai.html" target="_blank">Play Tic Tac Toe with AI</a></li>-->
+                    <li><a href="jokes.html" target="_blank">Joke Generator</a></li>
+
+                </ul>
+            </div>
+
+            <div class="nav-return border">
+                <!-- <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p> -->
+                <a href="/TodoReact/index.html" class="text">
+                <i class="fa-solid fa-pen-to-square"></i>
+                Todo</a>
+            </div>
+            <div class="nav-cart border">
+                <i class="fas fa-shopping-cart"></i>
+                Cart
+            </div>
+        </nav>
+
+        <div class="pannel">
+            <div class="pannel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="pannel-options">
+                <a href="">Today's Deals</a>
+                <a href="">Customer Service</a>
+                <a href="">Registry</a>
+                <a href="">Gift Cards</a>
+                <a href="">Sell</a>
+            </div>
+            <div class="pannel-deals">
+                Shop deals in Electronics
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-message">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local
+                delivery. <a href="https://www.amazon.in/?ref=aisgw_intl_stripe_in" target="_blank">Click here to go to
+                    amazon.in</a></p>
+        </div>
+    </div>
+    <div class="countdown-section">
+        <div id="Newcollection">New <i class="fa-solid fa-sun"></i> <br> Collections </div>
+       <div> <a href="/ClothingShadcn/index.html">
+            <a href="/ClothingShadcn/index.html"> <img src="https://m.media-amazon.com/images/I/615W1abrC2L._AC_UL480_FMwebp_QL65_.jpg"
+                alt=""></a>
+            <a href="/ClothingShadcn/index.html"> <img src="https://m.media-amazon.com/images/I/81PBnik0LHL._AC_UL480_FMwebp_QL65_.jpg"
+                alt=""></a>
+            <a href="/ClothingShadcn/index.html"> <img src="https://m.media-amazon.com/images/I/51SFQKuA0JL._AC_UL480_FMwebp_QL65_.jpg"
+                alt=""></a>
+           <!-- <a href=""> <img src="https://m.media-amazon.com/images/I/71GxB8DJLyL._AC_UL480_FMwebp_QL65_.jpg"
+                alt=""></a> -->
+        </a>
+        </div>
+        <div>
+            <h2>New Sales Coming In:</h2>
+            <div id="countdown">
+                <div class="unit">
+                    <span id="days"></span>
+                    Days
+                </div>
+                <div class="unit">
+                    <span id="hours"></span>
+                    Hours
+                </div>
+                <div class="unit">
+                    <span id="minutes"></span>
+                    Minutes
+                </div>
+                <div class="unit">
+                    <span id="seconds"></span>
+                    Seconds
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="boyshadcn">
+
+    </div>
+
+    <div class="shop-section">
+        <div class="box1 box">
+            <h2>Gaming Accessories</h2>
+            <div class="box-img ">
+                <div class="second-div-img">
+                    <div><a href="" target="_blank"><img src="drive/headset.webp" alt=""></a></div>
+                    <div><a href="" target="_blank"><img src="drive/Keyboard.webp" alt=""></a></div>
+                    <div><a href="" target="_blank"><img src="drive/Chairs.jpg" alt=""></a></div>
+                    <div><a href="" target="_blank"><img src="drive/Wireless mouse.webp" alt=""></a></div>
+                </div>
+            </div>
+            <a href="">see more</a>
+        </div>
+
+        <div class="box2 box">
+            <h2>Health & Personal Care</h2>
+            <div class="box-img" style="background-image: url(drive/box2_image.jpg);"></div>
+            <a href="">see more</a>
+        </div>
+        <div class="box3 box">
+            <h2>Furniture</h2>
+            <div class="box-img" style="background-image: url(drive/box3_image.jpg);"></div>
+            <a href="">see more</a>
+        </div>
+        <div class="box4 box">
+            <h2>Mobile & Gadgets</h2>
+            <div class="box-img" style="background-image: url(drive/box4_image.jpg);"></div>
+            <a href="">see more</a>
+        </div>
+        <div class="box1 box">
+            <h2>Makeup & Skin Care</h2>
+            <div class="box-img" style="background-image: url(drive/box5_image.jpg);"></div>
+            <a href="">see more</a>
+        </div>
+        <div class="box2 box">
+            <h2>Pet Care</h2>
+            <div class="box-img" style="background-image: url(drive/box6_image.jpg);"></div>
+            <a href="">see more</a>
+        </div>
+        <div class="box3 box">
+            <h2>New Arrival in toys</h2>
+            <div class="box-img" style="background-image: url(drive/box7_image.jpg);"></div>
+            <a href="">see more</a>
+        </div>
+        <div class="box4 box">
+            <h2>Fashion</h2>
+            <div class="box-img" style="background-image: url(drive/box8_image.jpg);"></div>
+            <a href="">see more..</a>
+        </div>
+    </div>
+    <footer>
+        <div><a href="index.html" class="foot-panel1">Back to Top</a></div>
+        <div class="foot-panel2">
+
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="">About Us</a>
+                <a href="">Careers</a>
+                <a href="">Press Releases</a>
+                <a href="">Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Connect with Us</p>
+                <a href="">Facebook</a>
+                <a href="">Twitter</a>
+                <a href="">Instagram</a>
+                <a href=""></a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a href="">Sell on Amazon</a>
+                <a href="">Sell under Amazon Accelerator</a>
+                <a href="">Protect and Build Your Brand</a>
+                <a href="">Amazon Global Selling</a>
+                <a href="">Supply to Amazon</a>
+                <a href="">Become an Affiliate</a>
+                <a href="">Fulfilment by Amazon</a>
+                <a href="">Advertise Your Products</a>
+                <a href="">Amazon Pay on Merchants</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a href="">Your Account</a>
+                <a href="">Returns Centre</a>
+                <a href="">Recalls and Product Safety Alerts</a>
+                <a href="">100% Purchase Protection</a>
+                <a href="">Amazon App Download</a>
+                <a href="">Help</a>
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a href="" target="_blank">Conditions of Use & Sale</a>
+                <a href="" target="_blank">Privacy Notice</a>
+                <a href="" target="_blank">Interest-Based Ads</a>
+            </div>
+            <div class="copywrite">
+                © 1996-2024, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
