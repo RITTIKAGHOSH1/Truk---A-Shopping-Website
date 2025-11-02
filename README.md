@@ -13,14 +13,17 @@ To go to Frontend code - follow this path --> src/main/resources/static
 
 ## Screenshot
 
-![Homepage] (assests/homepage1.png)
-![Homepage] (assests/homepage2.png)
-![Homepage] (assests/homepage3.png)
+![Homepage](assets/homepage1.png)
+![Homepage](assets/homepage2.png)
+![Homepage](assets/homepage3.png)
+
 
 ![MenClothingPage By ShadCn](assests/men'sclothingbySHadCn1.png)
 ![MenClothingPage By ShadCn](assests/men'sclothingbySHadCn2.png)
 
-![TicTacToe] (assests/tictactoeby2player.png)
-![TicTacToe] (assests/tictactoewithai.png)
 
-![TODO] (/assests/todo.png)
+![TicTacToe](assets/tictactoeby2player.png)
+![TicTacToe](assets/tictactoewithai.png)
+
+
+![TODO](assets/todo.png)
