@@ -1,5 +1,5 @@
 // Set the target date and time for the countdown
-const targetDateTime = new Date("May 31, 2025 15:00:00").getTime();
+const targetDateTime = new Date("May 31, 2026 15:00:00").getTime();
 
 // Function to calculate the remaining time and update the countdown display
 function updateCountdown() {

@@ -23,7 +23,7 @@ import jakarta.persistence.*;
 	    private String password;
 
 	    @Column(length = 1000)
-	    private String profilePic; // Stores image as URL or base64
+	    private String profilePic; 
 
 	    public User() {}
 

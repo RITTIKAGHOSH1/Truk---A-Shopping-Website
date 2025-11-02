@@ -11,7 +11,6 @@ const options = {
 
 const apiURL="https://api.api-ninjas.com/v1/dadjokes";
 
-//when we click the button , we call this funct
 async function getJoke(){
 
 try {

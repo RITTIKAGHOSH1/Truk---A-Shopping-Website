@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api") 
-@CrossOrigin(origins = "http://localhost:8080/Authentication/index.html") // Change this to match your frontend URL
+@CrossOrigin(origins = "http://localhost:8080/Authentication/index.html") 
 
 public class AuthController {
     @Autowired
@@ -18,7 +18,7 @@ public class AuthController {
 
     @PostMapping("/signup")
     public ResponseEntity<String> signup(@RequestBody User user) {
-    	 System.out.println("Signup endpoint hit!"); // Debugging line
+    
         String result = userService.registerUser(user);
         if (result.equals("Signup successful!")) {
             return ResponseEntity.ok(result);

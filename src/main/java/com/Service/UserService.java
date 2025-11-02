@@ -18,7 +18,6 @@ public class UserService {
             return "Email already exists!";
         }
 
-        // Store password as plain text (NOT RECOMMENDED for production)
         userRepository.save(user);
         return "Signup successful!";
     }
