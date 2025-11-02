@@ -13,9 +13,9 @@ To go to Frontend code - follow this path --> src/main/resources/static
 
 ## Screenshot
 
-![Homepage](assets/homepage1.png)
-![Homepage](assets/homepage2.png)
-![Homepage](assets/homepage3.png)
+![Homepage] (assests/homepage1.png)
+![Homepage] (assests/homepage2.png)
+![Homepage] (assests/homepage3.png)
 
 ![MenClothingPage By ShadCn](assests/men'sclothingbySHadCn1.png)
 ![MenClothingPage By ShadCn](assests/men'sclothingbySHadCn2.png)
@@ -23,4 +23,4 @@ To go to Frontend code - follow this path --> src/main/resources/static
 ![TicTacToe] (assests/tictactoeby2player.png)
 ![TicTacToe] (assests/tictactoewithai.png)
 
-![TODO] (assests/todo.png)
+![TODO] (/assests/todo.png)
