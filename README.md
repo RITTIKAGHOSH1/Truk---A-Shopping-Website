@@ -19,6 +19,7 @@ To go to Frontend code - follow this path --> src/main/resources/static
 
 ![Homepage](assets/homepage3.png)
 
+<br>
 
 ![Signup](assets/authenticationsignup.png)
 
@@ -28,11 +29,11 @@ To go to Frontend code - follow this path --> src/main/resources/static
 
 <div align="center">
   <img src="assets/loginresult.png" alt="Login" width="auto">
-</div><br> <br>
+</div><br> 
 
 <div align="center">
   <img src="assets/afterloggedin.png" alt="LoggedIn" width="1000">
-</div><br> <br><br> <br>
+</div><br> <br>
 
 
 
@@ -40,10 +41,12 @@ To go to Frontend code - follow this path --> src/main/resources/static
 
 ![MenClothingPage By ShadCn](assets/menclothingbySHadCn2.png)
 
+<br>
 
 ![TicTacToe](assets/tictactoeby2player.png)
 
 ![TicTacToe](assets/tictactoewithai.png)
 
+<br>
 
 ![TODO](assets/todo.png)
