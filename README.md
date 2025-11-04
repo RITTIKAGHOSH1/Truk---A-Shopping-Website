@@ -32,7 +32,7 @@ To go to Frontend code - follow this path --> src/main/resources/static
 
 <div align="center">
   <img src="assets/afterloggedin.png" alt="LoggedIn" width="1000">
-</div>
+</div><br> <br><br> <br>
 
 
 
