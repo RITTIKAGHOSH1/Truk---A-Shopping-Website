@@ -20,6 +20,22 @@ To go to Frontend code - follow this path --> src/main/resources/static
 ![Homepage](assets/homepage3.png)
 
 
+![Signup](assets/authenticationsignup.png)
+
+<div align="center">
+  <img src="assets/signupresult.png" alt="SignupDone" width="auto">
+</div><br>
+
+<div align="center">
+  <img src="assets/loginresult.png" alt="Login" width="auto">
+</div><br> <br>
+
+<div align="center">
+  <img src="assets/afterloggedin.png" alt="LoggedIn" width="1000">
+</div>
+
+
+
 ![MenClothingPage By ShadCn](assets/menclothingbySHadCn1.png)
 
 ![MenClothingPage By ShadCn](assets/menclothingbySHadCn2.png)

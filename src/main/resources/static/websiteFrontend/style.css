@@ -5,34 +5,37 @@
    box-sizing: border-box;
    
 }
+.cursor{
+	cursor: pointer;
+}
 .nav-bar{
     height: 8vh;
     background-color: rgb(1, 38, 44);
     color: #FFFFFF;
     display: flex;
     align-items: center;
-    justify-content: space-evenly; cursor: pointer;
+    justify-content: space-evenly; 
     box-sizing: border-box;
     
 }
 
 .nav-logo{
     height: auto;
-    width: 113px; cursor: pointer;
+    width: 113px; 
     border: 1.5px solid transparent;
     
 }
-.nav-logo:hover{
+/*.nav-logo:hover{
     box-shadow: 0 0 0 2px white; 
     box-sizing: border-box; 
-    transition: box-shadow 0.3s ease;
-}
+    transition: box-shadow 0.3s ease; 
+}*/
 
 .logo{
     background-image: url("drive/amazon_logo.png");
     background-size: cover;
-    height: auto;
-    width: 99%;
+    height: 30%;
+    width: 50%;
 }
 .nav-games {
     position: relative;

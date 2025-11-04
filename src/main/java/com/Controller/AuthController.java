@@ -6,11 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.Map;
 
 @RestController
 @RequestMapping("/api") 
-@CrossOrigin(origins = "http://localhost:8080/Authentication/index.html") 
+@CrossOrigin(origins = "http://localhost:5173", allowCredentials = "true") 
 
 public class AuthController {
     @Autowired
@@ -27,6 +28,7 @@ public class AuthController {
         }
     }
 
+   
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody Map<String, String> request) {
         String email = request.get("email");
@@ -34,9 +36,12 @@ public class AuthController {
 
         User user = userService.loginUser(email, password);
         if (user != null) {
-            return ResponseEntity.ok(user);
+            Map<String,Object> response = new HashMap<>();
+            response.put("user", user);
+            return ResponseEntity.ok(response);
         } else {
             return ResponseEntity.status(401).body("Invalid credentials");
         }
     }
+
 }

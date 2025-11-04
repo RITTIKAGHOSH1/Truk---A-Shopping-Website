@@ -6,8 +6,6 @@ import jakarta.persistence.*;
 @Entity
 @Table(name = "users")
 
-    
-	
 	public class User {
 	    @Id
 	    @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,7 +20,8 @@ import jakarta.persistence.*;
 	    @Column(nullable = false)
 	    private String password;
 
-	    @Column(length = 1000)
+	   // @Column(length = 100000)
+	    @Lob
 	    private String profilePic; 
 
 	    public User() {}
@@ -34,7 +33,6 @@ import jakarta.persistence.*;
 	        this.profilePic = profilePic;
 	    }
 
-	    // Getters and Setters
 	    public Long getId() { return id; }
 	    public void setId(Long id) { this.id = id; }
 
